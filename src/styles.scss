@@ -1,0 +1,8 @@
+/* You can add global styles to this file, and also import other style files */
+// example external package
+@import "~@deepblue/stylekit/src/mixin/space-horizontal";
+
+body {
+  @include space-horizontal(40%);
+  background-color: #dddddd;
+}
